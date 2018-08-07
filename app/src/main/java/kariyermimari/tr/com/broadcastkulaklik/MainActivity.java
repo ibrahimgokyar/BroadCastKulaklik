@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         myReceiver = new MusicIntentReceiver();
         tv1 = (TextView)findViewById(R.id.tvResult);
+        //yeni değişiklik yapıldı
     }
 
     public void onResume() {
